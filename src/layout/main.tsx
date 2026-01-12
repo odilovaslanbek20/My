@@ -7,7 +7,7 @@ export default function Layout() {
         <>
          <Navbar/>
          <MobileNavbar/>
-         <main className="">
+         <main className="pb-12">
             <Outlet/>
          </main>
         </>

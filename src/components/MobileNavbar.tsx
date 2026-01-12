@@ -16,7 +16,7 @@ export default function MobileNavbar() {
     ];
 
     return (
-        <div className="fixed bottom-0 left-0 w-full bg-[#131313] border-t border-[#2a2a2a] min-[810px]:hidden z-50">
+        <div className="fixed bottom-0 shadow-md shadow-[#D5FF3F] left-0 w-full bg-[#131313] border-t border-[#2a2a2a] min-[810px]:hidden z-50">
             <div className="flex justify-around items-center h-16 max-[600px]:h-14">
 
                 {menuItems?.map((item) => {

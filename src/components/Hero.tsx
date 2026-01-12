@@ -36,7 +36,7 @@ export default function Hero() {
 
         <div className="mt-10 flex items-center justify-center gap-5">
           <a
-            href="#"
+            href="https://www.linkedin.com/in/aslanbek-odilov-27136a378/"
             className="flex items-center gap-2 px-6 py-3 rounded-xl
             bg-[#CFFF45] text-black font-semibold
             hover:scale-105 transition"
@@ -45,7 +45,7 @@ export default function Hero() {
           </a>
 
           <a
-            href="#"
+            href="https://github.com/odilovaslanbek20"
             className="flex items-center gap-2 px-6 py-3 rounded-xl
             border border-[#CFFF45] text-[#CFFF45]
             hover:bg-[#CFFF45] hover:text-black transition"
