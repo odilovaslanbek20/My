@@ -13,7 +13,7 @@ export default function Navbar() {
     ];
 
     return (
-        <header className="w-full top-0 left-0 fixed py-2 max-[762px]:py-1 max-[500px]:py-0.5  bg-[#131313] shadow-lg shadow-[#D5FF3F]">
+        <header className="w-full top-0 z-50 left-0 fixed py-2  bg-[#131313] shadow-lg shadow-[#D5FF3F]">
             <div className="web-container flex items-center justify-between">
                 <div>
                     <a href="/" className="font-bold text-[30px] max-[450px]:text-[25px] text-[#D5FF3F]" style={{ fontFamily: "'Dancing Script', cursive" }}>

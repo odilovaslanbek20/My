@@ -4,7 +4,7 @@ export default function About() {
     const { t } = useTranslation()
     return (
         <>
-            <section className="">
+            <section className="web-container">
                 <div className="bg-[#161B22] rounded-2xl w-full py-10 my-3.5">
                     <div className="w-[90%] flex items-center justify-between m-auto">
                         <h1 className="text-4xl text-[#ffff] font-black mb-2.5">{t('about')}</h1>

@@ -7,7 +7,7 @@ export default function Layout() {
         <>
          <Navbar/>
          <MobileNavbar/>
-         <main className="web-container pt-20">
+         <main className="">
             <Outlet/>
          </main>
         </>

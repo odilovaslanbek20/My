@@ -17,8 +17,13 @@ body {
 }
 
 main {
-  margin-top: 100px;
+  margin-top: 40px;
 }
+
+.stroke-text {
+  -webkit-text-stroke: 2px #CFFF45;
+}
+
 
 .web-container {
   width: 90%;
