@@ -13,15 +13,15 @@ export default function Navbar() {
     ];
 
     return (
-        <header className="w-full fixed py-2 bg-[#131313] shadow-lg shadow-[#D5FF3F]">
+        <header className="w-full fixed py-2 max-[762px]:py-1 max-[500px]:py-0.5  bg-[#131313] shadow-lg shadow-[#D5FF3F]">
             <div className="web-container flex items-center justify-between">
                 <div>
-                    <a href="/" className="font-bold text-[30px] text-[#D5FF3F]" style={{ fontFamily: "'Dancing Script', cursive" }}>
+                    <a href="/" className="font-bold text-[30px] max-[450px]:text-[25px] text-[#D5FF3F]" style={{ fontFamily: "'Dancing Script', cursive" }}>
                         O.ASLAN<span className="text-[#ffff]">BEK</span>
                     </a>
                 </div>
 
-                <nav>
+                <nav className="max-[810px]:hidden">
                     <ul className="flex gap-7">
                         {menuItems.map((item, index) => {
                             const isActive = pathName === item.href;

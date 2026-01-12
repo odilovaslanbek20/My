@@ -43,15 +43,13 @@ export default function LanguageSwitcher() {
 
   return (
     <div className="relative inline-block text-left" ref={dropdownRef}>
-      {/* MAIN BUTTON */}
       <button
         onClick={() => setOpen(!open)}
-        className="px-4 py-1 rounded-md bg-[#D5FF3F] text-[#161B22] font-semibold"
+        className="cursor-pointer px-4 py-1 max-[450px]:py-0.5 max-[450px]:px-2 rounded-md bg-[#D5FF3F] text-[#161B22] font-semibold"
       >
         {currentLang.toUpperCase()}
       </button>
 
-      {/* DROPDOWN */}
       {open && (
         <div className="absolute right-0 mt-2 w-24 rounded-md bg-[#161B22] shadow-lg border border-[#D5FF3F]">
           {languages.map((lang) => {
