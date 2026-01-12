@@ -1,4 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 @import "tailwindcss";
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #131313;
+  color: #D5FF3F;
+}
+
+main {
+  margin-top: 100px;
+}
 
 .web-container {
   width: 90%;
