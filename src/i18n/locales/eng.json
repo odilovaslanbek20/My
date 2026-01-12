@@ -2,5 +2,16 @@
     "home": "Home",
     "about": "About Me",
     "project": "Projects",
-    "contact": "Contact"
+    "contact": "Contact",
+    "hero_hi": "Hi, I'm",
+    "name": "Aslan",
+    "name1": "bek",
+    "hero_text": "Currently",
+    "hero_text1": " Frontend ",
+    "hero_text2": "working as a developer.",
+    "about_text": "Hi! I'm Aslanbek, a Frontend Developer focused on creating user-friendly and interactive websites. I specialize in",
+    "about_text1": " HTML, CSS, JavaScript, React, Next Js, Tailwind CSS ",
+    "about_text2": "and responsive design. I enjoy building visually appealing and performant websites, collaborating in agile environments, and continuously improving my coding skills. Beyond development,",
+    "about_text3": " UI/UX ",
+    "about_text4": "trends, experimenting with design, and learning new web technologies. Let's connect and build amazing digital experiences together!"
 }
