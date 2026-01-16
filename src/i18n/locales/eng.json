@@ -9,10 +9,14 @@
     "hero_text": "Currently",
     "hero_text1": " Frontend ",
     "hero_text2": "working as a developer.",
-    "about_text": "Hi! I'm Aslanbek, a Frontend Developer focused on creating user-friendly and interactive websites. I specialize in",
+    "about_text": "Hi! My name is Aslanbek. I create user-friendly and dynamic websites with a strong focus on usability and interaction. In my daily work, I use",
     "about_text1": " HTML, CSS, JavaScript, React, Next Js, Tailwind CSS ",
-    "about_text2": "and responsive design. I enjoy building visually appealing and performant websites, collaborating in agile environments, and continuously improving my coding skills. Beyond development,",
-    "about_text3": " UI/UX ",
-    "about_text4": "trends, experimenting with design, and learning new web technologies. Let's connect and build amazing digital experiences together!",
-    "more": "More..."
+    "about_text2": "always paying attention to how websites look and feel across different devices.",
+    "about_text3": " I enjoy building visually appealing, fast, and efficient interfaces. Collaboration, working on new ideas, and continuously improving my skills are important to me. Beyond coding, I follow",
+    "about_text4": " UI/UX ",
+    "about_text5": " trends, experiment with design, and enjoy learning new web technologies.",
+    "about_text6": " Let’s work together to create digital experiences that users will remember.",
+    "more": "More",
+    "code": "View Code",
+    "site": "Open Site"
 }

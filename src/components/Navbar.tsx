@@ -17,7 +17,7 @@ export default function Navbar() {
             <div className="web-container flex items-center justify-between">
                 <div>
                     <a href="/" className="font-bold text-[30px] max-[450px]:text-[25px] text-[#D5FF3F]" style={{ fontFamily: "'Dancing Script', cursive" }}>
-                        O.ASLAN<span className="text-[#ffff]">BEK</span>
+                        O.ASLAN<span className="text-white/70">BEK</span>
                     </a>
                 </div>
 
@@ -29,7 +29,7 @@ export default function Navbar() {
                                 <li key={index} className="flex flex-col items-center">
                                     <a
                                         href={item.href}
-                                        className={`font-medium transition-colors ${isActive ? "text-[#D5FF3F]" : "hover:text-[#D5FF3F] text-white"
+                                        className={`font-medium transition-colors ${isActive ? "text-[#D5FF3F]" : "hover:text-[#D5FF3F] text-white/70"
                                             }`}
                                     >
                                         {item.name}

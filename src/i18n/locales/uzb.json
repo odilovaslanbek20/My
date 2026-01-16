@@ -9,10 +9,14 @@
     "hero_text": "Hozirda",
     "hero_text1": " Frontend ",
     "hero_text2": "dasturchi sifatida faoliyat yuritmoqdaman.",
-    "about_text": "Salom! Men Aslanbek, foydalanuvchilar uchun qulay va interaktiv veb-sayit yaratishga e’tibor qaratadigan Frontend dasturchiman. Men",
-    "about_text1": " HTML, CSS, JavaScript, React, Next Js, Tailwind CSS ",
-    "about_text2": "va responsiv dizayn bo‘yicha ixtisoslashganman. Vizual jihatdan jozibali va samarali veb-saytlar yaratish, agile muhitida hamkorlik qilish va kodlash ko‘nikmalarimni doimiy rivojlantirishni yoqtiraman. Dasturlashdan tashqari,",
-    "about_text3": " UI/UX ",
-    "about_text4": "trendlarini o‘rganish, dizayn bilan tajriba qilish va yangi veb-texnologiyalarni o‘rganishdan zavq olaman. Keling, birgalikda ajoyib raqamli tajribalar yaratamiz!",
-    "more": "Batafsil..."
+    "about_text": "Salom! Men Aslanbekman. Foydalanuvchiga qulay va jonli ishlaydigan veb-saytlar yaratish bilan shug‘ullanaman. Kundalik ishlarimda",
+    "about_text1": " HTML, CSS, JavaScript, React, Next Js, Tailwind CSS",
+    "about_text2": "’dan foydalanaman, shuningdek saytlarning har qanday qurilmada chiroyli ko‘rinishiga alohida ahamiyat beraman.",
+    "about_text3": " Vizual jihatdan yoqimli, tezkor va samarali interfeyslar yaratishni yoqtiraman. Jamoa bilan ishlash, yangi g‘oyalar ustida hamkorlik qilish va o‘z bilimlarimni doimiy ravishda rivojlantirib borish men uchun muhim. Dasturlashdan tashqari,",
+    "about_text4": " UI/UX ",
+    "about_text5": " trendlarini kuzataman, dizayn bilan tajriba qilaman va yangi veb-texnologiyalarni o‘rganishdan zavq olaman.",
+    "about_text6": " Keling, birgalikda foydalanuvchilar eslab qoladigan raqamli tajribalar yaratamiz.",
+    "more": "Batafsil",
+    "code": "Kodini ko'rish",
+    "site": "Saytni ochish"
 }

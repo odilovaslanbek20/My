@@ -63,7 +63,7 @@ export default function LanguageSwitcher() {
                   ${
                     isActive
                       ? "bg-[#D5FF3F] text-[#161B22] font-semibold"
-                      : "text-white hover:bg-[#D5FF3F] hover:text-[#161B22]"
+                      : "text-white/70 hover:bg-[#D5FF3F] hover:text-[#161B22]"
                   }
                 `}
               >

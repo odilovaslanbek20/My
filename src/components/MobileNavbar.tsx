@@ -23,7 +23,7 @@ export default function MobileNavbar() {
                     const isActive = pathName === item.href;
                     return (
                         <>
-                            <a href={item?.href} className={`flex flex-col items-center hover:text-[#D5FF3F] transition ${isActive ? 'text-[#D5FF3F]' : 'text-white'}`}>
+                            <a href={item?.href} className={`flex flex-col items-center hover:text-[#D5FF3F] transition ${isActive ? 'text-[#D5FF3F]' : 'text-white/70'}`}>
                                 {item?.icon}
                                 <span className="text-[11px] mt-1">{item?.name}</span>
                             </a>
