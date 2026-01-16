@@ -13,10 +13,11 @@ export default function Hero() {
 
         <h1
           className="text-9xl stroke-text opacity-70 max-[625px]:text-8xl max-[500px]:text-7xl max-[380px]:text-6xl font-extrabold leading-none
-          bg-linear-to-b from-[#E9FF6A] to-[#9FBF1A]
+          bg-linear-to-b from-[#E9FF6A] 
           bg-clip-text text-transparent drop-shadow-[0_0_40px_rgba(207,255,69,0.35)]"
         >
-          <span className="">{t('name')}</span>{t('name1')}
+          {t('lastName')} <br />
+          {t('name')}
         </h1>
 
         <p className="mt-6 text-[#cfff45]/80 max-w-2xl mx-auto text-lg leading-relaxed">
@@ -25,6 +26,7 @@ export default function Hero() {
 
         <div className="mt-10 flex items-center justify-center gap-5">
           <a
+            target='_blank'
             href="https://www.linkedin.com/in/aslanbek-odilov-27136a378/"
             className="flex items-center gap-2 px-6 py-3 rounded-xl
             bg-[#CFFF45] text-black font-semibold
@@ -34,6 +36,7 @@ export default function Hero() {
           </a>
 
           <a
+            target='_blank'
             href="https://github.com/odilovaslanbek20"
             className="flex items-center gap-2 px-6 py-3 rounded-xl
             border border-[#CFFF45] text-[#CFFF45]

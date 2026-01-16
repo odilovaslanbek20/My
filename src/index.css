@@ -21,7 +21,7 @@ main {
 }
 
 .stroke-text {
-	-webkit-text-stroke: 10px #cfff45;
+	-webkit-text-stroke: 5px #cfff45;
 }
 
 .web-container {
