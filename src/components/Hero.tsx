@@ -4,18 +4,7 @@ import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 export default function Hero() {
   const {t} =  useTranslation();
   return (
-    <section className="relative min-h-screen bg-[#0a0a0a] flex items-center justify-center overflow-hidden">
-
-      <div className="absolute inset-0 max-[500px]:-mt-52 max-[365px]:-mt-56 flex flex-col items-center justify-center gap-10 select-none">
-        <span className="text-[14vw] font-black uppercase tracking-widest
-          text-transparent stroke-text opacity-20">
-          ODILOV
-        </span>
-        <span className="text-[14vw] font-black uppercase tracking-widest
-          text-transparent stroke-text opacity-20">
-          ASLANBEK
-        </span>
-      </div>
+    <section className="relative min-h-screen max-[500px]:min-h-auto max-[500px]:pt-24 bg-[#0a0a0a] flex items-center justify-center overflow-hidden">
 
       <div className="relative z-10 text-center px-6">
         <p className="text-[#CFFF45] text-sm md:text-base tracking-[0.3em] uppercase mb-4">
@@ -23,11 +12,11 @@ export default function Hero() {
         </p>
 
         <h1
-          className="text-9xl max-[625px]:text-8xl max-[500px]:text-7xl max-[380px]:text-6xl font-extrabold leading-none
+          className="text-9xl stroke-text opacity-70 max-[625px]:text-8xl max-[500px]:text-7xl max-[380px]:text-6xl font-extrabold leading-none
           bg-linear-to-b from-[#E9FF6A] to-[#9FBF1A]
           bg-clip-text text-transparent drop-shadow-[0_0_40px_rgba(207,255,69,0.35)]"
         >
-          <span className="text-white">{t('name')}</span>{t('name1')}
+          <span className="">{t('name')}</span>{t('name1')}
         </h1>
 
         <p className="mt-6 text-[#cfff45]/80 max-w-2xl mx-auto text-lg leading-relaxed">
