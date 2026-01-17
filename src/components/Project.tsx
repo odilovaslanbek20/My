@@ -1,10 +1,13 @@
 import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { data } from './data'
+import { GiWorld } from 'react-icons/gi'
+import { FaCode } from 'react-icons/fa'
 
 export default function LensCard() {
 	const { t } = useTranslation()
 	const [pos, setPos] = useState({ x: 0, y: 0 })
+	const [openId, setOpenId] = useState<number | null>(null);
 
 	return (
 		<section className='web-container'>
@@ -59,21 +62,44 @@ export default function LensCard() {
 								</p>
 							</div>
 
-							<div className='px-6 pb-6 flex gap-4 max-[600px]:gap-2'>
+							<div className='px-6 pb-6 relative'>
 								<button
-									className='px-5 py-2 max-[336px]:py-1 max-[336px]:px-4 rounded-xl bg-[#D5FF3F] text-black font-semibold
-          hover:scale-105 transition'
+									onClick={() =>
+										setOpenId(openId === item.id ? null : item.id)
+									}
+									className='w-full px-5 py-2 rounded-xl bg-[#D5FF3F] text-black font-semibold
+    flex items-center justify-between'
 								>
-									{t("site")}
+									{t('actions')}
+									<span
+										className={`transition ${openId === item.id ? 'rotate-180' : ''
+											}`}
+									>
+										▼
+									</span>
 								</button>
 
-								<button
-									className='px-5 py-2 rounded-xl border border-[#D5FF3F]/50
-          text-[#D5FF3F] hover:bg-[#D5FF3F] hover:text-black transition'
-								>
-									{t("code")}
-								</button>
+								{openId === item.id && (
+									<div className='absolute left-6 right-6 bottom-17 bg-[#0a0a0a] border border-[#D5FF3F]/40 rounded-xl overflow-hidden z-10'>
+										<a
+											href={item.site}
+											target='_blank'
+											className='px-4 py-3 flex items-center gap-2 text-[#D5FF3F] group hover:bg-[#D5FF3F] hover:text-black transition'
+										>
+											<GiWorld className='text-white/70 text-2xl group-hover:text-black'/> {t('site')}
+										</a>
+
+										<a
+											href={item.code}
+											target='_blank'
+											className='px-4 py-3 flex items-center gap-2 text-[#D5FF3F] group hover:bg-[#D5FF3F] hover:text-black transition'
+										>
+											<FaCode className='text-white/70 text-2xl group-hover:text-black'/> {t('code')}
+										</a>
+									</div>
+								)}
 							</div>
+
 						</div>
 					)
 				})}
