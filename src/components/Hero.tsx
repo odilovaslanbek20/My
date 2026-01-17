@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 export default function Hero() {
   const {t} =  useTranslation();
   return (
-    <section className="relative min-h-200 max-[1440px]:min-h-screen max-[500px]:min-h-auto max-[500px]:pt-20 flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-200 max-[1440px]:min-h-screen max-[500px]:min-h-auto max-[500px]:pt-18 flex items-center justify-center overflow-hidden">
 
       <div className="relative z-10 text-center px-6">
         <p className="text-white/70 text-sm md:text-base tracking-[0.3em] uppercase mb-4">
