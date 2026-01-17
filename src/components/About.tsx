@@ -4,7 +4,7 @@ export default function About() {
 	const { t } = useTranslation()
 
 	return (
-		<section className='web-container py-28'>
+		<section className='web-container py-20'>
 			<div className='relative grid grid-cols-1 md:grid-cols-12 gap-10 items-start'>
 				<div className='md:col-span-4'>
 					<h2 className='text-5xl md:text-6xl font-black leading-tight text-white/70'>
