@@ -50,7 +50,7 @@ export default function Hero() {
       <div
         className="absolute w-150 h-150 rounded-full
         bg-[#CFFF45]/10 blur-[120px] top-1/2 left-1/2
-        -translate-x-1/2 -translate-y-1/2"
+        -translate-x-1/2 -translate-y-1/2 max-[500px]:hidden"
       />
     </section>
   );
