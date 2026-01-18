@@ -33,18 +33,17 @@ export default function GetInTouch() {
                     </a>
 
                     <a
-                        href="https://t.me/USERNAME"
-                        target="_blank"
+                        href="/contact"
                         className="flex items-center gap-3 max-[377px]:min-w-full px-6 py-3 rounded-xl
           border border-[#D5FF3F]/50 text-[#D5FF3F]
           hover:bg-[#D5FF3F] hover:text-black transition"
                     >
                         <FaTelegramPlane />
-                        Telegram
+                        {t('contact')}
                     </a>
 
                     <a
-                        href="https://linkedin.com/in/USERNAME"
+                        href="https://www.linkedin.com/in/aslanbek-odilov-27136a378/"
                         target="_blank"
                         className="flex items-center gap-3 px-6 max-[377px]:min-w-full py-3 rounded-xl
           border border-[#D5FF3F]/50 text-[#D5FF3F]

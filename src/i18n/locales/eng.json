@@ -2,10 +2,10 @@
     "home": "Home",
     "about": "About Me",
     "project": "Projects",
-    "contact": "Contact",
+    "contact": "Contact Me",
     "hero_hi": "Frontend Developer",
     "name": "Aslanbek",
-    "lastName": "Оdilov",
+    "lastName": "Odilov",
     "hero_text": "Currently",
     "hero_text1": " Frontend ",
     "hero_text2": "working as a developer.",
@@ -21,5 +21,13 @@
     "site": "Open Site",
     "actions": "Details",
     "getInTouch": "Get in Touch",
-    "contactText": "If you are interested in my work or want to provide feedback about this website, I am open to exchanging ideas."
+    "contactText": "If you are interested in my work or want to provide feedback about this website, I am open to exchanging ideas.",
+    "contact1": "Contact",
+    "contactText1": "If you are interested in my work or want to provide feedback, feel free to contact me.",
+    "contactInfo": "Contact Information",
+    "sendMessage": "Send a Message",
+    "name1": "Your name",
+    "email": "Your email",
+    "message": "Your message",
+    "send": "Send Message"
 }
