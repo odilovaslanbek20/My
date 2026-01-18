@@ -24,7 +24,7 @@ export default function GetInTouch() {
                 <div className="mt-10 flex flex-wrap gap-4">
                     <a
                         href="mailto:aslanbekodilov524@gmail.com"
-                        className="flex items-center max-[377px]:min-w-full gap-3 px-6 py-3 rounded-xl
+                        className="flex items-center max-[387px]:min-w-full gap-3 px-6 py-3 rounded-xl
           bg-[#D5FF3F] text-black font-semibold
           hover:scale-105 transition"
                     >
@@ -34,7 +34,7 @@ export default function GetInTouch() {
 
                     <a
                         href="/contact"
-                        className="flex items-center gap-3 max-[377px]:min-w-full px-6 py-3 rounded-xl
+                        className="flex items-center gap-3 max-[387px]:min-w-full px-6 py-3 rounded-xl
           border border-[#D5FF3F]/50 text-[#D5FF3F]
           hover:bg-[#D5FF3F] hover:text-black transition"
                     >
@@ -45,7 +45,7 @@ export default function GetInTouch() {
                     <a
                         href="https://www.linkedin.com/in/aslanbek-odilov-27136a378/"
                         target="_blank"
-                        className="flex items-center gap-3 px-6 max-[377px]:min-w-full py-3 rounded-xl
+                        className="flex items-center gap-3 px-6 max-[387px]:min-w-full py-3 rounded-xl
           border border-[#D5FF3F]/50 text-[#D5FF3F]
           hover:bg-[#D5FF3F] hover:text-black transition"
                     >
